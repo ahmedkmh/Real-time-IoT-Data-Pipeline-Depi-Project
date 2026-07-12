@@ -52,7 +52,7 @@ To translate raw data into actionable insights, we built a comprehensive Power B
 
 ## Team Members
 * **Ahmed Khalid Mohammed Hafez**
-* **Ahmed Mohammed Ali Gheith**
+* **Ahmed Mohammed Ali Gheith: Data Simulation and Ingestion Pipeline**
 * **Abdallah Mahmoud Mahmoud Hassan**
 * **Mohammed Ezzat Abdelaziz Eltayeb**
 * **Mohammed Hatem Waheed Eldin Ata**
