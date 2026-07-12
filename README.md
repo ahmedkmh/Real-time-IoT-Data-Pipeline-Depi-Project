@@ -1,5 +1,5 @@
 # Farmland: Data-Powered Sustainable Farming 🌾
-[Demo Video](https://1drv.ms/v/c/0d8b4ef2efa61906/IQBWBO3Ohr4_TbYl67zOTnjOAfN0WTXOvi0FQrULSnRzxpE?e=ti5Xgt) - [Presentation](https://canva.link/66yuthekw6q3phc)
+[Demo Video](https://1drv.ms/v/c/0d8b4ef2efa61906/IQBWBO3Ohr4_TbYl67zOTnjOAfN0WTXOvi0FQrULSnRzxpE?e=ti5Xgt) - [Presentation](https://canva.link/grs8qnwa2cs5k25)
 
 ## Project Overview
 **Farmland** is an end-to-end, real-time IoT and Data Analytics platform designed to empower sustainable agriculture. Developed to bridge advanced artificial intelligence and sustainable farming, this project leverages Microsoft Azure cloud services to ingest, process, and visualize agricultural telemetry. 
