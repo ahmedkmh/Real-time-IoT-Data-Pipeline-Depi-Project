@@ -32,20 +32,20 @@ To connect the two, we configured an **Azure Stream Analytics job** (`iotjob`). 
 **Description:** The processed data is stored in a robust relational database schema optimized for analytics. The schema links a central `SensorReadings` fact table (containing granular data like Humidity, Pressure, Co2, and CPU Usage) with dimensional tables including `Devices`, `Farms`, `Locations`, and `Crops`. This relational model allows for complex analytical queries and ensures data integrity across different farming sectors.
 
 ### 4. Power BI Analytics & Dashboards
-To translate raw data into actionable insights, we built a comprehensive Power BI reporting suite containing two primary modules:
+To translate raw data into actionable insights, we built a comprehensive Power BI reporting suite containing specialized modules:
 
-#### Home Page & Top-Level Dashboard
 ![Smart Farming Home](Pictures/powerbi1.png)
-![IoT Dashboard Overview](Pictures/powerbi4.png)
-**Description:** The entry point to our BI solution, providing a clean, navigable interface to explore both environmental and operational metrics.
-
-#### Environmental Monitoring
 ![Environmental Monitoring Dashboard](Pictures/powerbi3.png)
-**Description:** This dashboard focuses on agronomic conditions. It tracks real-time averages for Temperature, Pressure, and Air Quality. Features include a line chart tracking temperature trends across months, a breakdown of weather distributions (Sunny, Foggy, Rainy), and granular temperature alerts aggregated by city, allowing farmers to react to adverse weather instantly.
-
-#### Device Health & Operational Monitoring
 ![Device Health Dashboard](Pictures/powerbi2.png)
-**Description:** Crucial for maintaining the IoT fleet, this dashboard monitors the hardware status across all farms. It provides insights into Average Battery Level, Energy Consumption, CPU/Memory usage, and Signal Strength. A dedicated metric highlights the exact number of devices requiring maintenance, segmented by farm locations (e.g., Desert Farm, Nile Farm), ensuring zero downtime in the data pipeline.
+**Description:** * **Home Page:** Serves as the central navigational hub for our BI solution.
+* **Environmental Monitoring:** Focuses on agronomic conditions, tracking real-time averages for Temperature, Pressure, and Air Quality. Features include a line chart tracking temperature trends, weather distributions, and granular temperature alerts aggregated by city, allowing farmers to react to adverse weather instantly.
+* **Device Health & Operational Monitoring:** Crucial for maintaining the IoT fleet, this dashboard monitors hardware status across all farms. It provides insights into Battery Levels, Energy Consumption, CPU/Memory usage, and Signal Strength. A dedicated metric highlights the exact number of devices requiring maintenance, ensuring zero downtime in the data pipeline.
+
+### 5. High-Level Monitoring & Automated Alerting System
+![IoT Dashboard Overview](Pictures/powerbi4.png)
+![Automated Alerts](Pictures/alerts.png)
+
+**Description:** The platform pairs a high-level **IoT Dashboard** with a responsive notification system. The dashboard provides an immediate overview of critical system health and environmental metrics (e.g., Average Battery, Average Temp, Pressure, and Devices Needing Maintenance) to identify anomalies at a glance. Working in tandem, the automated alerting system continuously monitors this incoming data. If critical thresholds are breached—such like temperature spikes or humidity drops that could endanger crops—the system instantly dispatches alerts to Clients, enabling immediate preventative action.
 
 ---
 
